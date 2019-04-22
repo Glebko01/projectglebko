@@ -1,0 +1,66 @@
+body{
+	background-color: #4D4A49;
+}
+.block{
+	background-color: #737373;
+	height: 600px;
+	width: 130px;
+	margin-top: 120px;
+}
+.text{
+	color: #FEFDFD;
+	font-size: 40px;
+	text-align: center;
+	font-family: Hhand;
+}
+.csgo{
+	top: 200px;
+	left: 250px;
+	position: absolute;
+
+}
+.pubg{
+     top: 400px;
+     left: 800px;
+     position: absolute;
+}
+.fort{
+	position: absolute;
+     top: 550px;
+     left: 300px;
+}    
+.img2{
+	position: absolute;
+	top: 220px;
+	left: 30px;
+}
+.img3{
+	position: absolute;
+	top: 320px;
+	left: 30px;
+
+}
+.img4{
+	position: absolute;
+	top: 420px;
+	left: 30px;
+}
+.img5{
+	position: absolute;
+	top: 520px;
+	left: 30px;
+}
+.img6{
+	position: absolute;
+	top: 620px;
+	left: 30px;
+}
+
+.modal {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	background-image: url(https://www.pcgamesn.com/wp-content/uploads/2019/03/fortnite-ikonik.jpg);
+	display: none;
+}

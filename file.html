@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>file</title>
+	<link rel="stylesheet" type="text/css" href="lll.css">
+</head>
+<body>
+	<button id="myBtn">
+		Modal
+	</button>
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <span class="close">&times;</span>
+	    <p>Some text in the Modal..</p>
+	  </div>
+
+	</div>
+	<script type="text/javascript">
+		var btn = document.getElementById("myBtn");
+		var modal = document.getElementById('myModal');
+		var span = document.getElementsByClassName("close")[0];
+		btn.onclick = function() {
+ 			 modal.style.display = "block";
+		}
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		// window.onclick = function(event) {
+		//   if (event.target == modal) {
+		//     modal.style.display = "none";
+		//   }
+		// }
+	</script>
+	<div class="text">Games</div>
+	<div class="block">
+		
+	</div>
+	<div class="csgo">
+		<img src="https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/22/91/d815718cb0c678463c61276440025c00598b606041e1b103979205.jpg" height="170px" width="370px">
+	</div>
+	<div class="pubg">
+		<img src="https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg?t=1554496855" height="170px" width="370px">
+	</div>
+	<div class="fort">
+		<img src="https://img.purch.com/fortnite-closeencounters-edit-jpg/w/755/aHR0cDovL21lZGlhLmJlc3RvZm1pY3JvLmNvbS8yL0wvNzgwMjg1L29yaWdpbmFsL0ZvcnRuaXRlX0Nsb3NlRW5jb3VudGVycy1lZGl0LmpwZw==" height="170px" width="370px">
+	</div>
+	<div class="img2">
+		<a href="https://www.youtube.com/"><img src="https://img.icons8.com/color/78/000000/youtube-play.png"></a>
+		
+	</div>
+	<div class="img3">
+		<a href="https://www.instagram.com/"><img src="https://img.icons8.com/color/78/000000/instagram-new.png"></a>
+	</div>
+	<div class="img4">
+		<a href="https://telegram.org/"><img src="https://img.icons8.com/color/78/000000/telegram-app.png"></a>
+	</div>
+	<div class="img5">
+		<a href="https://twitter.com/?lang=ru"><img <img src="https://img.icons8.com/color/78/000000/twitter.png"></a>
+	</div>
+	<div class="img6">
+		<a href="https://www.twitch.tv/"><img src="https://img.icons8.com/color/78/000000/twitch.png"></a>
+
+	</div>
+
+	
+
+
+</body>
+</html>
